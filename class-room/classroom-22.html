@@ -1,0 +1,166 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>classroom-22 -  Lessonix</title>
+<meta name="description" content="Discover Lessonix, the fun way to learn teamwork, kindness, and never giving up at school. Perfect for elementary students!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://retro-bowls-unblocked.github.io/css.css?vasas4" />
+<meta property="og:title" content="Lessonix: Lessons">
+<meta property="og:description" content="Discover Lessonix, the fun way to learn teamwork, kindness, and never giving up at school. Perfect for elementary students!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://retro-bowls-unblocked.github.io/">
+<meta property="og:image" content="https://retro-bowls-unblocked.github.io//og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lessonix: Lessons">
+<meta name="twitter:description" content="Discover Lessonix, the fun way to learn teamwork, kindness, and never giving up at school. Perfect for elementary students!">
+<meta name="twitter:image" content="https://retro-bowls-unblocked.github.io//og-image.png">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"name": "Lessonix Space",
+"url": "https://retro-bowls-unblocked.github.io/"
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QG15BB7TJ1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QG15BB7TJ1');
+</script>
+
+</head>
+<body>
+<script>
+window.aiptag = window.aiptag || {cmd: []};
+aiptag.cmd.display = aiptag.cmd.display || [];
+aiptag.cmd.player = aiptag.cmd.player || [];
+aiptag.cmp = {
+show: true,
+position: "centered",  //centered, bottom
+button: true,
+buttonText: "Privacy settings",
+buttonPosition: "bottom-left" //bottom-left, bottom-right, bottom-center, top-left, top-right
+}
+aiptag.cmd.player.push(function() {
+aiptag.adplayer = new aipPlayer({
+AD_WIDTH: 960,
+AD_HEIGHT: 540,
+AD_DISPLAY: 'center', //default, fullscreen, fill, center, modal-center
+LOADING_TEXT: 'loading advertisement',
+PREROLL_ELEM: function(){return document.getElementById('videoad')},
+AIP_COMPLETE: function (state)  {
+lesson_detail();
+}
+});
+});
+function show_videoad() {
+//check if the adslib is loaded correctly or blocked by adblockers etc.
+if (typeof aiptag.adplayer !== 'undefined') {
+aiptag.cmd.player.push(function() { aiptag.adplayer.startVideoAd(); });
+} else {}}
+</script>
+<script async src="//api.adinplay.com/libs/aiptag/pub/GDU/paperio4.live/tag.min.js"></script>
+<div id="videoad"></div>
+<div class="bg-pattern"></div>
+<div class="container">
+<div class="lesson-detail">
+<a style="text-decoration: none;" href="https://retro-bowls-unblocked.github.io/" class="back-button">
+<span>←</span> Back to Classroom
+</a>
+<h2>Lessonix / classroom-22</h2>
+<img
+  id="lesimg"
+  style="display: grid; margin: 0 auto 30px; border-radius: 20px;"
+  src="https://retro-bowls-unblocked.github.io/img/classroom-22.webp"
+  title="classroom-22"
+  alt="classroom-22"
+  width="320"
+  height="180"
+/><button class="lesson-button" id="enterLesson">
+▶ 
+</button>
+<div class="mii" id="lessonInfo">
+<div class="class_r spr2" id='paperio4-live_970x250_3'>
+<script type='text/javascript'>
+aiptag.cmd.display.push(function() { aipDisplayTag.display('paperio4-live_970x250_3'); });
+</script>
+</div> 
+</div>
+<div class="lesson-frame-container" id="lessonContainer">
+<iframe id="lessonFrame" src="" allowfullscreen></iframe>
+</div>
+<div class="lesson-actions" id="lessonActions">
+<button class="action-button fullscreen" id="fullscreenButton">
+<span>⛶</span> Full Screen
+</button>
+<a href="#" class="action-button" id="newWindowButton" target="_blank">
+<span>↗</span> New Window
+</a>
+</div>
+</div>
+<script>
+const enterLesson = document.getElementById('enterLesson');
+const lessonContainer = document.getElementById('lessonContainer');
+const lessonFrame = document.getElementById('lessonFrame');
+const lessonActions = document.getElementById('lessonActions');
+const fullscreenButton = document.getElementById('fullscreenButton');
+const newWindowButton = document.getElementById('newWindowButton');
+const lessonInfo = document.getElementById('lessonInfo');
+const lessonPath = 'https://lessonix.space/classroom/classroom-22?1759782786';
+enterLesson.addEventListener('click', function() {
+show_videoad();
+lesimg.style.display = 'none';
+enterLesson.style.display = 'none';
+//lessonInfo.style.display = 'none';
+lessonFrame.src = lessonPath;
+lessonContainer.classList.add('active');
+lessonActions.classList.add('active');
+});  
+fullscreenButton.addEventListener('click', function() {
+if (lessonContainer.requestFullscreen) {
+lessonContainer.requestFullscreen();
+} else if (lessonContainer.webkitRequestFullscreen) {
+lessonContainer.webkitRequestFullscreen();
+} else if (lessonContainer.msRequestFullscreen) {
+lessonContainer.msRequestFullscreen();
+}
+});
+newWindowButton.addEventListener('click', function(e) {
+e.preventDefault();
+const width = 1280;
+const height = 720;
+const left = (screen.width - width) / 2;
+const top = (screen.height - height) / 2;
+
+window.open(
+lessonPath,
+'lessonWindow',
+`width=${width},height=${height},left=${left},top=${top},toolbar=no,location=no,menubar=no`
+);
+});
+
+lessonContainer.addEventListener('click', function(e) {
+if (e.target === lessonFrame && !document.fullscreenElement) {
+if (lessonContainer.requestFullscreen) {
+lessonContainer.requestFullscreen();
+}
+}
+});
+</script>
+
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"25c89aa2099444bd96dbc862eb7ddff5","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
